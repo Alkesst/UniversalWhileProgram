@@ -14,8 +14,11 @@ Usando la Codificación de Cantor [Cantor Pairing][1] y la
 Codificación de Gödel para "traducir" los programas while a
 1 único número natural.
 
+### ¿Porqué Haskell?
+Uso haskell por el simple hecho de que en cualquier otro lenguaje de programación no tengo la opción de poder generar números "infinitos". Recordemos que la Codificación De Gödel consiste en asignarle a un vector de entrada de tamaño indefinido un único número natural, entonces, la lista puede ser "infinita" con números "infinitos". Haskell me proporciona esta facilidad con el tipo Integer.
+
 #### TODO
-Traducir el readme al inglés.
+Traducir el readme al inglés. Realizar el programa universal por completo.
 
 
 
