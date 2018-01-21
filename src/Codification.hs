@@ -9,7 +9,7 @@ module Codification(
 godelization :: [Integer] -> Integer
 godelization xs
     | len == 0  = 0
-    | otherwise = basicCantor (len - 1) (cantorization xs)
+    | otherwise = basicCantor (len - 1) (cantorization xs) + 1
         where
             len = longth xs
 
